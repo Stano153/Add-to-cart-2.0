@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+
+main {
+    margin-top: 1em;
+}
+
+.slider {
+    width: 100%;
+    height: auto;
+}
+
+/* nav {
+    border:3px solid black;
+} */
+
+.cart {
+    background-color: orange;
+    padding: 0.5em;
+    /* margin-top: 1em; */
+}
+
+.ponuka {
+    background-color: brown;
+    color: #fff;
+    padding: 0.5em 1em;
+}
+
+.price, .nav-item {
+    font-weight: bold;
+}
+
+
+.nav-link:hover {
+    color:black;
+    background-color: yellow;
+}
+
+.product {
+    height: 400px;
+}
